@@ -12,6 +12,8 @@ class TwoDimensionArrayTest {
     public static void main(String[] args) {
         int[] x,y[];
         //x是一维数组，y二维数组
+        x = new int[10];
+        y = new int[10][10];
     }
 }
 
