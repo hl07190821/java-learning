@@ -58,8 +58,8 @@ class CharNumberTest
         System.out.println("  \\n ");
 		//System.out.println( \\n );//报错
         System.out.println("  \\t ");
-		System.out.println(\u0022 + 10 = ");// + 10 = 
-		System.out.println(\u0022 + 10 = \u0022);// + 10 =
+		/*System.out.println(\u0022 + 10 = ");// + 10 =
+		System.out.println(\u0022 + 10 = \u0022);// + 10 =*/
 		//Java编译器处理顺序
 		//1.第一阶段： Unicode转义处理
 		//2.第二阶段： 词法分析（识别字符串边界即开始，字符字面量）
