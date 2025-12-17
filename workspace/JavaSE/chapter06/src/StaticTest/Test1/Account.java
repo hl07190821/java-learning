@@ -1,4 +1,4 @@
-package SuperAndThis.Test1;
+package StaticTest.Test1;
 
 /**
  * ClassName: Account

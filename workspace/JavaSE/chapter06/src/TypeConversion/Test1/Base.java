@@ -1,0 +1,17 @@
+package TypeConversion.Test1;
+
+/**
+ * ClassName: Base
+ * Package: TypeConversion.Test1
+ * Description:
+ *
+ * @Author Soon
+ * @Create 2025/12/17 22:17
+ * @Version 1.0
+ */
+public class Base {
+    int count = 10;
+    public void display() {
+        System.out.println(this.count);
+    }
+}
