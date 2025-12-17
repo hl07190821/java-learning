@@ -2,7 +2,7 @@ package ThisTest.Test1;
 
 /**
  * ClassName: TestRectangle
- * Package: ThisTest.Test1
+ * Package: ThisTest.Usage1
  * Description:
  *
  * @Author Soon

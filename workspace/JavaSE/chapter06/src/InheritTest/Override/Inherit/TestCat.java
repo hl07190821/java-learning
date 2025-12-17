@@ -1,4 +1,4 @@
-package InheritTest.Inherit;
+package InheritTest.Override.Inherit;
 
 /**
  * ClassName: TestCat

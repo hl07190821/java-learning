@@ -2,7 +2,7 @@ package StaticTest.Test1;
 
 /**
  * ClassName: EmployeeTest
- * Package: StaticTest.Test1
+ * Package: StaticTest.Usage1
  * Description:
  *
  * @Author Soon

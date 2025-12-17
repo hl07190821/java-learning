@@ -2,7 +2,7 @@ package InheritTest.Test1;
 
 /**
  * ClassName: Person
- * Package: InheritTest.Test1
+ * Package: InheritTest.Usage1
  * Description:
  *
  * @Author Soon
