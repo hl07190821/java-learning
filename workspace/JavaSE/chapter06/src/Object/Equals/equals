@@ -1,0 +1,22 @@
+
+格式:obj1.equals(obj2)
+
+特例：当用equals()方法进行比较时，对类File、String、Date及包装类（Wrapper Class）来说，
+是比较类型及内容而不考虑引用的是否是同一个对象；
+
+原因：在这些类中重写了Object类的equals()方法。
+当自定义使用equals()时，可以重写。用于比较两个对象的“内容”是否都相等
+
+重写equals()方法的原则
+
+对称性：如果x.equals(y)返回是“true”，那么y.equals(x)也应该返回是“true”。
+
+自反性：x.equals(x)必须返回是“true”。
+
+传递性：如果x.equals(y)返回是“true”，而且y.equals(z)返回是“true”，那么z.equals(x)也应该返回是“true”。
+
+一致性：如果x.equals(y)返回是“true”，只要x和y内容一直不变，不管你重复x.equals(y)多少次，返回都是“true”。
+
+任何情况下，x.equals(null)，永远返回是“false”；
+
+x.equals(和x不同类型的对象)永远返回是“false”。
