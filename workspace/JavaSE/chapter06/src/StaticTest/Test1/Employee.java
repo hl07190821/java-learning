@@ -9,13 +9,15 @@ package StaticTest.Test1;
  * @Create 2025/12/16 13:25
  * @Version 1.0
  */
+
+//静态方法中不能出现this和super但是可以通过new进行调用构造器
 public class Employee {
     //私有化静态变量，类的外面必须使用get/set方法来访问静态变量
     private static int total;
 
     //要设置为static方法，不然通过方法访问静态变量将没有意义，因为必须创建对象
     public static void setTotal(int total){
-        //推荐使用Employee.total而不是this.total
+        //推荐使用Employee.total访问类变量而不是this.total
         Employee.total = total;
     }
     //同理，必须要声明static方法
@@ -24,7 +26,7 @@ public class Employee {
     }
 
     static String company;//缺省权限修饰符，方便类外以“类名.静态变量”的方式进行访问
-    private  int id;
+    private int id;
 
     public void setId(int id){
         this.id = id;

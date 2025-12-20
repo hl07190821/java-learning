@@ -25,7 +25,7 @@ x.equals(和x不同类型的对象)永远返回是“false”。
 基本类型只比较值
 引用类型比较引用是否指向同一个对象
 equals:
-所有类都继承了Object，也就获得了equsls()方法，还可以重写
+所有类都继承了Object，也就获得了equals()方法，还可以重写
 只能比较引用类型，Object类源码中equals()的作用与"=="相同：比较是否指向同一个对象
 
 格式obj1.equals(obj2)

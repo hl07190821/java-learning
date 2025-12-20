@@ -1,0 +1,3 @@
+public int hashCode():
+返回每个对象的hash值
+数字指纹
