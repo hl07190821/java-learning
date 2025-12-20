@@ -5,7 +5,7 @@ import Polymorphism.Test1.Dog;
 import Polymorphism.Test1.Pet;
 
 /**
- * ClassName: Test1
+ * ClassName: User
  * Package: TypeConversion.ClassCastTest
  * Description:
  *

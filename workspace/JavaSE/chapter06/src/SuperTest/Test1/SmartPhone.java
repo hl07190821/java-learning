@@ -2,7 +2,7 @@ package SuperTest.Test1;
 
 /**
  * ClassName: SmartPhone
- * Package: SuperTest.Test1
+ * Package: SuperTest.User
  * Description:
  *
  * @Author Soon

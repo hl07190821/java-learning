@@ -2,7 +2,7 @@ package StaticTest.Test2;
 
 /**
  * ClassName: StaticTest
- * Package: StaticTest.Test2
+ * Package: StaticTest.Order
  * Description:
  *
  * @Author Soon

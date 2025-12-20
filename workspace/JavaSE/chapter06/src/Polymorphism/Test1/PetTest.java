@@ -2,7 +2,7 @@ package Polymorphism.Test1;
 
 /**
  * ClassName: PetTest
- * Package: Polymorphism.Test1
+ * Package: Polymorphism.User
  * Description:
  *
  * @Author Soon

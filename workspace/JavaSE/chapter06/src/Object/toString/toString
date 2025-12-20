@@ -1,0 +1,15 @@
+方法签名：
+public String toString()
+1，在默认情况下，toString()返回的是“对象的运行时类型@对象的hasCode值的十六进制形式”
+2，在进行String与其他类型数据的连接操作时，自动调用toString()方法
+Date now = new Date()
+System.out.println("now = "+now);
+System.out.println("now = "+now.toString)
+3，如果我们直接System.out.println(对象)，默认会自动调用这个对象的toString
+因为java的引用数据类型的变量中存储的实际上是对象的内存地址，但是java对程序员隐藏了内存
+地址信息，所以不能直接将内存地址显示出来，所以当你打印对象时，JVM帮你调用了对象的toString()
+4，可以根据需要在用户自定义类型中重写toString()方法
+如String类重写了toString()方法，返回字符串的值
+s1 = "hello";
+System.out.println(s1)//相当于System.out.println(s1.toString())
+

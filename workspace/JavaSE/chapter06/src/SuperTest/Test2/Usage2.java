@@ -2,7 +2,7 @@ package SuperTest.Test2;
 
 /**
  * ClassName: Usage2
- * Package: SuperTest.Test2
+ * Package: SuperTest.Order
  * Description:
  *
  * @Author Soon

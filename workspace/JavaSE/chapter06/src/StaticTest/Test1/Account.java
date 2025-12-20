@@ -2,7 +2,7 @@ package StaticTest.Test1;
 
 /**
  * ClassName: Account
- * Package: SuperAndThis.Test1
+ * Package: SuperAndThis.User
  * Description:
  *
  * @Author Soon

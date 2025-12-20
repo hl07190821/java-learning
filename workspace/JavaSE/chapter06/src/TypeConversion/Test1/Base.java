@@ -2,7 +2,7 @@ package TypeConversion.Test1;
 
 /**
  * ClassName: Base
- * Package: TypeConversion.Test1
+ * Package: TypeConversion.User
  * Description:
  *
  * @Author Soon
