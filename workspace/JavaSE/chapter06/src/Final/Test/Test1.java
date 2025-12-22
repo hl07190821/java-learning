@@ -1,4 +1,4 @@
-package Final;
+package Final.Test;
 
 /**
  * ClassName: Test1
